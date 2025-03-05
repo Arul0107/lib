@@ -1,0 +1,78 @@
+/* Addbooks.css */
+.breedcrum{
+  height: 50px;
+  
+}
+.scroll-containerview{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-height: 80vh; /* Restrict height */
+  overflow-y: auto; /* Enable scrolling */
+  padding-bottom: 16px;
+}
+
+/* Form container styling */
+.form-container {
+  top: 30px;
+    max-width: 100%;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+.addbookform{
+  margin-top: 40px;
+}
+  .addbooklastbtn{
+    gap: 20px;display: flex;
+  }
+  .addbook{
+display: flex; 
+    flex-direction: row;}
+  /* Form items */
+  .form-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Input fields */
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Select fields */
+  .select-field {
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  /* Buttons */
+  .form-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  .custom-card {
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-cover {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .isbn-text {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+  }
+  

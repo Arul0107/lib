@@ -1,0 +1,23 @@
+/* Ensure the container doesn't exceed viewport height */
+.scroll-containerview{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-height: 80vh; /* Restrict height */
+    overflow-y: auto; /* Enable scrolling */
+    padding-bottom: 16px;
+  }
+  
+  /* Ensure cards are properly sized */
+  .ant-card {
+    max-width: 100%;
+    flex: 1 1 280px; /* Adjusts width dynamically */
+  }
+  
+  /* Fixing mobile responsiveness */
+  @media screen and (max-width: 600px) {
+    .scroll-container {
+      max-height: 75vh;
+      overflow-y: auto;
+    }
+  }
